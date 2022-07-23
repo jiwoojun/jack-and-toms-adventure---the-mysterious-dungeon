@@ -1,0 +1,5 @@
+let Jack = sprites.create(assets.image`Jack_character`, SpriteKind.Player)
+let Tom = sprites.create(assets.image`Tom_charatcer`, SpriteKind.Player)
+tiles.setCurrentTilemap(tilemap`level1`)
+tiles.placeOnRandomTile(Jack, assets.tile`myTile0`)
+scene.cameraFollowSprite(Jack)
